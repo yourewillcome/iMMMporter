@@ -1,0 +1,702 @@
+{
+  "Version": 1,
+  "Hash": "PpoiLt6fgglBmT4TyymnsRflaalj5BH30bVDqBeVgQ4=",
+  "Source": "iMMMporter",
+  "BasePath": "_content/iMMMporter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "iMMMporter/wwwroot",
+      "Source": "iMMMporter",
+      "ContentRoot": "/Users/freebanana5/Projects/iMMMporter/wwwroot/",
+      "BasePath": "_content/iMMMporter",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/cxv3472qvk-zonigujxqm.gz",
+      "SourceId": "iMMMporter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/iMMMporter",
+      "RelativePath": "css/site#[.{fingerprint=zonigujxqm}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/freebanana5/Projects/iMMMporter/wwwroot/css/site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xbbelze0kg",
+      "Integrity": "3bFPUCG5a6I84TkJRDfFTm2jZknsX2iF8Ycxfw6lV9A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/freebanana5/Projects/iMMMporter/wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/i8hcsdeolk-s61qy97yhd.gz",
+      "SourceId": "iMMMporter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/iMMMporter",
+      "RelativePath": "js/site#[.{fingerprint=s61qy97yhd}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/freebanana5/Projects/iMMMporter/wwwroot/js/site.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "3m8fwi8jyg",
+      "Integrity": "pT5I7SwByYXrPGOTmzcZjzPPTX7vgbLLA7zXXxg/kt4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/freebanana5/Projects/iMMMporter/wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/Users/freebanana5/Projects/iMMMporter/wwwroot/css/site.css",
+      "SourceId": "iMMMporter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/freebanana5/Projects/iMMMporter/wwwroot/",
+      "BasePath": "_content/iMMMporter",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zonigujxqm",
+      "Integrity": "jf/SjngtRNGcaPtMTdqNwAtE4hqCfJav+Dq6+3tRau0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/freebanana5/Projects/iMMMporter/wwwroot/js/site.js",
+      "SourceId": "iMMMporter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/freebanana5/Projects/iMMMporter/wwwroot/",
+      "BasePath": "_content/iMMMporter",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s61qy97yhd",
+      "Integrity": "hJ7MILjVmqtYqEBjh4KOkIcRF1OtPTx/GjaEdsTCEr8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/cxv3472qvk-zonigujxqm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002024291498"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "493"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3bFPUCG5a6I84TkJRDfFTm2jZknsX2iF8Ycxfw6lV9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 00:31:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jf/SjngtRNGcaPtMTdqNwAtE4hqCfJav+Dq6+3tRau0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jf/SjngtRNGcaPtMTdqNwAtE4hqCfJav+Dq6+3tRau0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "/Users/freebanana5/Projects/iMMMporter/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jf/SjngtRNGcaPtMTdqNwAtE4hqCfJav+Dq6+3tRau0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 00:31:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jf/SjngtRNGcaPtMTdqNwAtE4hqCfJav+Dq6+3tRau0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/cxv3472qvk-zonigujxqm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "493"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3bFPUCG5a6I84TkJRDfFTm2jZknsX2iF8Ycxfw6lV9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 00:31:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3bFPUCG5a6I84TkJRDfFTm2jZknsX2iF8Ycxfw6lV9A="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zonigujxqm.css",
+      "AssetFile": "/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/cxv3472qvk-zonigujxqm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002024291498"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "493"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3bFPUCG5a6I84TkJRDfFTm2jZknsX2iF8Ycxfw6lV9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 00:31:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jf/SjngtRNGcaPtMTdqNwAtE4hqCfJav+Dq6+3tRau0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zonigujxqm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jf/SjngtRNGcaPtMTdqNwAtE4hqCfJav+Dq6+3tRau0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zonigujxqm.css",
+      "AssetFile": "/Users/freebanana5/Projects/iMMMporter/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jf/SjngtRNGcaPtMTdqNwAtE4hqCfJav+Dq6+3tRau0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 00:31:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zonigujxqm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jf/SjngtRNGcaPtMTdqNwAtE4hqCfJav+Dq6+3tRau0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zonigujxqm.css.gz",
+      "AssetFile": "/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/cxv3472qvk-zonigujxqm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "493"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3bFPUCG5a6I84TkJRDfFTm2jZknsX2iF8Ycxfw6lV9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 00:31:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zonigujxqm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3bFPUCG5a6I84TkJRDfFTm2jZknsX2iF8Ycxfw6lV9A="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/i8hcsdeolk-s61qy97yhd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003058103976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pT5I7SwByYXrPGOTmzcZjzPPTX7vgbLLA7zXXxg/kt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 00:31:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hJ7MILjVmqtYqEBjh4KOkIcRF1OtPTx/GjaEdsTCEr8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJ7MILjVmqtYqEBjh4KOkIcRF1OtPTx/GjaEdsTCEr8="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "/Users/freebanana5/Projects/iMMMporter/wwwroot/js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJ7MILjVmqtYqEBjh4KOkIcRF1OtPTx/GjaEdsTCEr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 00:31:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJ7MILjVmqtYqEBjh4KOkIcRF1OtPTx/GjaEdsTCEr8="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/i8hcsdeolk-s61qy97yhd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pT5I7SwByYXrPGOTmzcZjzPPTX7vgbLLA7zXXxg/kt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 00:31:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pT5I7SwByYXrPGOTmzcZjzPPTX7vgbLLA7zXXxg/kt4="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.s61qy97yhd.js",
+      "AssetFile": "/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/i8hcsdeolk-s61qy97yhd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003058103976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pT5I7SwByYXrPGOTmzcZjzPPTX7vgbLLA7zXXxg/kt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 00:31:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hJ7MILjVmqtYqEBjh4KOkIcRF1OtPTx/GjaEdsTCEr8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s61qy97yhd"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJ7MILjVmqtYqEBjh4KOkIcRF1OtPTx/GjaEdsTCEr8="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.s61qy97yhd.js",
+      "AssetFile": "/Users/freebanana5/Projects/iMMMporter/wwwroot/js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJ7MILjVmqtYqEBjh4KOkIcRF1OtPTx/GjaEdsTCEr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 00:31:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s61qy97yhd"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJ7MILjVmqtYqEBjh4KOkIcRF1OtPTx/GjaEdsTCEr8="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.s61qy97yhd.js.gz",
+      "AssetFile": "/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/i8hcsdeolk-s61qy97yhd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pT5I7SwByYXrPGOTmzcZjzPPTX7vgbLLA7zXXxg/kt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 00:31:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s61qy97yhd"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pT5I7SwByYXrPGOTmzcZjzPPTX7vgbLLA7zXXxg/kt4="
+        }
+      ]
+    }
+  ]
+}

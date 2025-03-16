@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/freebanana5/Projects/iMMMporter/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/freebanana5/Projects/iMMMporter/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.iMMMporter.props",
+      "PackagePath": "build\\iMMMporter.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.iMMMporter.props",
+      "PackagePath": "buildMultiTargeting\\iMMMporter.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.iMMMporter.props",
+      "PackagePath": "buildTransitive\\iMMMporter.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.iMMMporter.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.iMMMporter.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

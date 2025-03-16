@@ -1,7 +1,29 @@
 using iMMMporter.Services;
+using Microsoft.AspNetCore.Http.Features;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 
 // Create the WebApplicationBuilder
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure Kestrel for larger request sizes
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.Limits.MaxRequestBodySize = int.MaxValue; // Unlimited or very large limit
+});
+
+// Configure form options
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.ValueLengthLimit = int.MaxValue;
+    options.MultipartBodyLengthLimit = long.MaxValue; // Set to a large value
+    options.MultipartHeadersLengthLimit = int.MaxValue;
+});
+
+// Configure IIS options
+builder.Services.Configure<IISServerOptions>(options =>
+{
+    options.MaxRequestBodySize = int.MaxValue; // Set to a large value or null for unlimited
+});
 
 // Add services to the container
 builder.Services.AddControllersWithViews();
@@ -24,7 +46,6 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios.
     app.UseHsts();
 }
 

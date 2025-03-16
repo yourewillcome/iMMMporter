@@ -1,11 +1,3 @@
-/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.csproj.AssemblyReference.cache
-/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.GeneratedMSBuildEditorConfig.editorconfig
-/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.AssemblyInfoInputs.cache
-/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.AssemblyInfo.cs
-/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.csproj.CoreCompileInputs.cache
-/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.MvcApplicationPartsAssemblyInfo.cache
-/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.RazorAssemblyInfo.cache
-/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.RazorAssemblyInfo.cs
 /Users/freebanana5/Projects/iMMMporter/bin/Debug/net9.0/appsettings.json
 /Users/freebanana5/Projects/iMMMporter/bin/Debug/net9.0/iMMMporter.staticwebassets.runtime.json
 /Users/freebanana5/Projects/iMMMporter/bin/Debug/net9.0/iMMMporter.staticwebassets.endpoints.json
@@ -18,6 +10,15 @@
 /Users/freebanana5/Projects/iMMMporter/bin/Debug/net9.0/Microsoft.Identity.Client.dll
 /Users/freebanana5/Projects/iMMMporter/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
 /Users/freebanana5/Projects/iMMMporter/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.csproj.AssemblyReference.cache
+/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.AssemblyInfoInputs.cache
+/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.AssemblyInfo.cs
+/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.csproj.CoreCompileInputs.cache
+/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.MvcApplicationPartsAssemblyInfo.cache
+/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.RazorAssemblyInfo.cache
+/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.RazorAssemblyInfo.cs
+/Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/iMMMporter.sourcelink.json
 /Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/scopedcss/bundle/iMMMporter.styles.css
 /Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/cxv3472qvk-zonigujxqm.gz
 /Users/freebanana5/Projects/iMMMporter/obj/Debug/net9.0/compressed/i8hcsdeolk-s61qy97yhd.gz

@@ -8,23 +8,39 @@
     <h2>@ViewData["Title"]</h2>
     <hr />
     
+    <!-- Error Messages Section -->
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            <h4>Errors occurred:</h4>
+            <ul>
+                @foreach (var modelError in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <li>@modelError.ErrorMessage</li>
+                }
+            </ul>
+        </div>
+    }
+    
     <div class="row">
         <div class="col-md-6">
             <form action="/Import" method="post" enctype="multipart/form-data">
                 
                 <div class="form-group">
                     <label for="CsvFile">CSV File</label>
-                    <input id="CsvFile" name="CsvFile" class="form-control" type="file" accept=".csv" />
+                    <input id="CsvFile" name="CsvFile" class="form-control" type="file" accept=".csv" required />
                     <small class="form-text text-muted">Select a CSV file with email data to import into Dynamics 365.</small>
                 </div>
                 
                 <div class="form-group form-check">
-                    <input id="SkipFirstRow" name="SkipFirstRow" class="form-check-input" type="checkbox" checked="checked" />
+                    <input id="SkipFirstRow" name="SkipFirstRow" class="form-check-input" type="checkbox" checked="checked" value="true" />
+                    <input name="SkipFirstRow" type="hidden" value="false" />
                     <label for="SkipFirstRow" class="form-check-label">Skip First Row (Headers)</label>
                 </div>
                 
                 <div class="form-group form-check">
-                    <input id="PreviewOnly" name="PreviewOnly" class="form-check-input" type="checkbox" />
+                    <input id="PreviewOnly" name="PreviewOnly" class="form-check-input" type="checkbox" value="true" />
+                    <input name="PreviewOnly" type="hidden" value="false" />
                     <label for="PreviewOnly" class="form-check-label">Preview Only (No Import)</label>
                 </div>
                 
@@ -71,9 +87,15 @@
             </div>
             
             <form action="/Import" method="post" enctype="multipart/form-data">
-                <input type="hidden" name="SkipFirstRow" value="@Model.SkipFirstRow" />
-                <input id="hiddenFile" name="CsvFile" type="hidden" />
+                <input type="hidden" name="SkipFirstRow" value="@Model.SkipFirstRow.ToString().ToLower()" />
                 <input type="hidden" name="PreviewOnly" value="false" />
+                
+                <!-- We need to resubmit the file - browser security prevents this directly -->
+                <div class="alert alert-warning">
+                    <p><strong>Note:</strong> You'll need to select the CSV file again to proceed with the import:</p>
+                    <input name="CsvFile" type="file" class="form-control" required accept=".csv" />
+                </div>
+                
                 <button type="submit" class="btn btn-success">Proceed with Import</button>
             </form>
         </div>

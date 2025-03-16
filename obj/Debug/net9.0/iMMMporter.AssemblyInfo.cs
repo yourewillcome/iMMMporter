@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("iMMMporter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65c6c4af4cb2511797acd1e67a73c2031140aa4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("iMMMporter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("iMMMporter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

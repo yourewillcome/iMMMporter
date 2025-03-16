@@ -28,8 +28,9 @@ namespace iMMMporter.Models
         {
             var entity = new Dictionary<string, object>();
             
+            // Using the correct logical names for the fields
             if (Content != null) entity["mmm_content"] = Content;
-            if (Email != null) entity["mmm_email"] = Email;
+            if (Email != null) entity["mmm_emailid"] = Email; // Updated to match logical name
             if (Recipients != null) entity["mmm_recipients"] = Recipients;
             if (Sender != null) entity["mmm_sender"] = Sender;
             if (SentDate != null) entity["mmm_sentdate"] = SentDate;
